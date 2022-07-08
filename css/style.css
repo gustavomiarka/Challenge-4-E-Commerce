@@ -22,7 +22,8 @@
 }
 
 .articulos1, .articulos2, .articulos3 {
-    margin: 30px 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .articulos1__contenedor, .articulos2__contenedor, .articulos3__contenedor {
@@ -46,6 +47,10 @@
 
 .banner__texto-titulo, .banner__texto-parrafo{
     color: white;
+}
+
+main{
+    background: #E5E5E5;
 }
 
 
@@ -81,6 +86,10 @@
 @media only screen and (min-width: 600px) {
     .articulos1__cabecera, .articulos2__cabecera, .articulos3__cabecera {
         gap: 0 350px;
+    }
+
+    .footer__container {
+        padding: 20px;
     }
 }
 

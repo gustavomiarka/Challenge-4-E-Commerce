@@ -1,5 +1,9 @@
 .container{
     max-width: 350px!important;
-    margin-left: 5rem!important;
+    margin-left: 2rem!important;
     margin-right: 2rem!important;
+}
+
+.d-flex{
+    flex-wrap: nowrap!important;
 }
