@@ -8,6 +8,11 @@ main{
 .iniciarSesion__form{
     width: 523px;
     height: 291px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .container__login{
@@ -16,27 +21,35 @@ main{
     align-items: center;
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
-    
+.btn-primary {
+    margin-right: -3rem;
+}
 
-    .footer__container {
-        padding: 20px;
+.d-flex, .btn{
+    width: 434px;   
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 767px) {
+    
+    .d-flex, .btn{
+        width: 328px;   
     }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    
+    .d-flex, .btn{
+        width: 434px;   
+    }
     
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
-    .footer__container {
-        padding: 54px;
-    }
+    
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

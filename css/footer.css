@@ -4,6 +4,10 @@
     background-color: #EAF2FD;
 }
 
+.form-floating{
+    margin-bottom: 1rem;
+}
+
 /* .footer__logo, .footer__container-lista{
     display: flex;
 } */
@@ -59,6 +63,27 @@
     .form2{
         display: contents;
     }
+
+    .footer__logo{
+        padding-bottom: 1rem;
+    }
+
+    .footer__form{
+        width:328px;
+        flex-direction: row;
+    }
+
+    .footer__container {
+        padding: 20px;
+    }
+
+    .btn{
+        width: 328px;   
+    }
+
+    .footer__btn {
+        margin-right: -3rem;
+    }
 }
 
 
@@ -68,11 +93,17 @@
     .form-floating{
         width: 434px;
     }
+
+    .btn{
+        width: 434px;   
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    
+    .footer__container {
+        padding: 54px;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

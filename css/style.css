@@ -21,6 +21,14 @@
     margin-right: 3rem;
 }
 
+.btn-login, .d-flex-login{
+    width:100px;
+}
+
+.btn-consola{
+    width: 200px!important;
+}
+
 .articulos1, .articulos2, .articulos3 {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -89,7 +97,7 @@ main{
     }
 
     .footer__container {
-        padding: 20px;
+        padding: 54px;
     }
 }
 

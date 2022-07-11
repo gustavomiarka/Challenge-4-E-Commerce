@@ -11,6 +11,10 @@
     padding-bottom: 5rem;
 }
 
+.btn-agregar{
+    width:200px;
+}
+
 @media only screen and (max-width: 600px) {
     .principal{
         flex-direction: column;
