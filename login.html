@@ -29,15 +29,15 @@
                 <form class="iniciarSesion__form">
                     <p>Iniciar Sesion</p>
                     <div class="form-floating">
-                        <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
-                        <label for="floatingInput">Nombre</label>
+                        <input type="email" class="form-control" id="validationDefault01" placeholder="name@example.com">
+                        <label for="validationDefault01" class="form-label">Nombre</label>
                     </div>
                     <div class="form-floating">
-                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                        <label for="floatingPassword">Contraseña</label>
+                        <input type="password" class="form-control" id="validationDefault02" placeholder="Password">
+                        <label for="validationDefault02" class="form-label">Contraseña</label>
                     </div>
                     <div class="d-flex">
-                        <button class="btn btn-primary btn-block" type="button">Login</button>
+                        <button class="btn btn-primary btn-block" type="submit">Login</button>
                     </div>
                   </form>
             </div>
@@ -59,15 +59,21 @@
                     </div>
                 </div>
                 <div class="form">
-                    <form class="footer__form">
+                    <form class="footer__form ">
                         <p>Haganos una consulta</p>
                         <div class="form-floating">
-                            <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
-                            <label for="floatingInput">Nombre</label>
+                            <input type="text" class="form-control" id="validationDefault01" required placeholder="name@example.com" maxlength="40">
+                            <label for="validationDefault01" class="form-label">Nombre</label>
+                            <div class="valid-feedback">
+                                Looks good!
+                              </div>
                         </div>
                         <div class="form-floating">
-                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-                            <label for="floatingTextarea">Cometarios</label>
+                            <textarea class="form-control" placeholder="Leave a comment here" id="validationDefault02" required maxlength="120"></textarea>
+                            <label for="validationDefault02" class="form-label">Comentarios</label>
+                            <div class="valid-feedback">
+                                Looks good!
+                              </div>
                         </div>
                         <button type="submit" class="btn btn-primary footer__btn">Enviar</button>
                       </form>
