@@ -6,15 +6,18 @@
 
 .d-flex{
     flex-wrap: nowrap!important;
+    display: flex;
+    
 }
 
-.btn-admin, .d-flex-admin{
+.d-flex-admin{
     width: 200px!important;
+    
 }
 
 .navbar{
     display: flex;
     justify-content:space-between;
-    padding-right: 3rem!important;
+    
     width: 100vw;
 }

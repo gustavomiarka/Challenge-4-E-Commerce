@@ -1,9 +1,25 @@
 main{
-    height: 100vh;
+    display: flex;
+    justify-content:center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .nvo-producto__form{
     width: 523px;
     height: 291px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__nvo-producto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
